@@ -1,5 +1,7 @@
 # Task Manager
 
+**Live demo:** https://task-manager-two-rho-89.vercel.app
+
 A small full-stack task manager: a React + Material UI frontend, a Flask REST API, and MongoDB for storage. Includes pytest tests, a GitHub Actions CI workflow, Docker, and a Bash test script.
 
 ## Features
