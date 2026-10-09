@@ -1,5 +1,6 @@
 # Backend image: Flask API served by gunicorn.
-FROM python:3.13-slim
+# Official Python image, pulled from the AWS public mirror to avoid Docker Hub rate limits in CI.
+FROM public.ecr.aws/docker/library/python:3.13-slim
 
 ENV PYTHONDONTWRITEBYTECODE=1 \
     PYTHONUNBUFFERED=1
