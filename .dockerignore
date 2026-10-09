@@ -1,0 +1,4 @@
+# Only backend/requirements.txt and backend/app.py are needed in the image.
+*
+!backend/requirements.txt
+!backend/app.py
